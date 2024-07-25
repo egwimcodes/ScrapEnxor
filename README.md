@@ -1,14 +1,11 @@
-Here's the corrected `README.md` file:
-
-```markdown
 # ScrapEnxor
 
 **Web Scrapper**
 
 ScrapEnxor is a powerful web scraping application that extracts essential information such as company names, logos, contact information, and more from websites. It's designed to be intuitive and responsive, making web scraping tasks straightforward and efficient.
 
-![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrap%20enxor.png)
-![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrapenxor1.png)
+![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/raw/master/scraper/static/scraper/scrap%20enxor.png)
+![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/raw/master/scraper/static/scraper/scrapenxor1.png)
 
 ## Features
 
@@ -19,6 +16,13 @@ ScrapEnxor is a powerful web scraping application that extracts essential inform
 - **Location Detection:** Scrapes the website to find location/address details.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 - **Error Handling:** Provides clear error messages when scraping fails.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/egwimcodes/ScrapEnxor.git
+
 
 ## Installation
 
@@ -85,5 +89,3 @@ For any questions or suggestions, feel free to reach out:
 - LinkedIn: [egwimcodes](https://www.linkedin.com/in/egwimcodes)
 - Website: [egwimcodes.dev](https://egwimcodes.dev)
 ```
-
-Make sure to update the image paths if they are incorrect, and ensure that the images are present in the specified locations in your repository.
