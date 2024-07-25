@@ -6,6 +6,7 @@ ScrapEnxor is a powerful web scraping application that extracts essential inform
 
 ![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/raw/master/scraper/static/scraper/scrapenxor1.png)
 ![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/raw/master/scraper/static/scraper/scrap%20enxor.png)
+![Scraping Results](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/result.png)
 
 ## Features
 
