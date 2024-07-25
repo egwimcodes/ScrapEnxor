@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Scrap Enxor</title>
+    <link rel="stylesheet" href="{% static 'scraper/styles.css' %}" />
+    <script
+      src="https://kit.fontawesome.com/af0e0b1e3c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Scrap Enxor</h1>
+    </div>
+    <div id="content" class="container">
+      <form id="scrapeForm" method="POST">
+        {% csrf_token %}
+        <input
+          class="url"
+          type="url"
+          name="url"
+          placeholder="Enter website URL"
+          required
+        />
+        <button class="button" type="submit">Scrape</button>
+      </form>
+      <div id="loading" style="display: none">
+        <img src="{% static 'scraper/scrap.gif' %}" alt="Loading..." />
+      </div>
+      <div id="result" style="display: none">
+        <div class="logo">
+          <img id="logo" src="" alt="Company Logo" />
+        </div>
+        <div class="company_detail">
+          <div class="c_title">Company Name:</div>
+          <div class="c_response">
+            <span id="companyName"></span>
+          </div>
+        </div>
+        <div class="company_detail">
+          <div class="c_title">Logo URL:</div>
+          <div class="c_response">
+            <span id="logoUrl"></span>
+          </div>
+        </div>
+        <div class="company_detail">
+          <div class="c_title">Contact Info:</div>
+          <div class="c_response">
+            <ul id="contactInfo"></ul>
+          </div>
+        </div>
+        <div class="company_detail">
+          <div class="c_title">About the Company:</div>
+          <div class="c_response">
+            <span id="aboutCompany"></span>
+          </div>
+        </div>
+        <div class="company_detail">
+          <div class="c_title">Location:</div>
+          <div class="c_response">
+            <span id="location"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <div class="icons">
+          <a href="https://github.com/egwimcodes/">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/egwimcodes">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://web.facebook.com/egwimcodes">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <p class="owner">
+          <a href="https://egwimcodes.dev">DEVELOPED BY: EGWIMCODES</a>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p class="footer">&copy; 2024 Web Scrap Enxor. All rights reserved.</p>
+    </footer>
+    <script src="{% static 'scraper/script.js' %}"></script>
+  </body>
+</html>
