@@ -8,7 +8,6 @@ ScrapEnxor is a powerful web scrapping application that extracts essential infor
 
 ![ScrapEnxor Screenshot](screenshots/scrap_enxor_main.png)
 
-![ScrapEnxor Screenshot](screenshots/scrap_enxor_main.png)
 ## Features
 
 - **Company Name Extraction:** Automatically retrieves the company's name from the website.
