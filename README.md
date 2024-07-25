@@ -1,9 +1,11 @@
+Here's the corrected `README.md` file:
+
 ```markdown
 # ScrapEnxor
 
 **Web Scrapper**
 
-ScrapEnxor is a powerful web scrapping application that extracts essential information such as company names, logos, contact information, and more from websites. It's designed to be intuitive and responsive, making web scrapping tasks straightforward and efficient.
+ScrapEnxor is a powerful web scraping application that extracts essential information such as company names, logos, contact information, and more from websites. It's designed to be intuitive and responsive, making web scraping tasks straightforward and efficient.
 
 ![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrap%20enxor.png)
 ![ScrapEnxor Screenshot](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrapenxor1.png)
@@ -14,9 +16,9 @@ ScrapEnxor is a powerful web scrapping application that extracts essential infor
 - **Logo Retrieval:** Extracts the company's logo, even from relative paths.
 - **Contact Information:** Gathers phone numbers and emails scattered across the website.
 - **About the Company:** Fetches the first paragraph from the 'About Us' page.
-- **Location Detection:** Scraps the website to find location/address details.
+- **Location Detection:** Scrapes the website to find location/address details.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Error Handling:** Provides clear error messages when scrapping fails.
+- **Error Handling:** Provides clear error messages when scraping fails.
 
 ## Installation
 
@@ -57,10 +59,10 @@ ScrapEnxor is a powerful web scrapping application that extracts essential infor
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/scrap_enxor_main.png)
+![Main Interface](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrap%20enxor.png)
 
-### Scrapping Results
-![Scrapping Results](screenshots/scrap_enxor_results.png)
+### Scraping Results
+![Scraping Results](https://github.com/egwimcodes/ScrapEnxor/blob/master/scraper/static/scraper/scrap%20enxor.png)
 
 ## Contributing
 
@@ -83,3 +85,5 @@ For any questions or suggestions, feel free to reach out:
 - LinkedIn: [egwimcodes](https://www.linkedin.com/in/egwimcodes)
 - Website: [egwimcodes.dev](https://egwimcodes.dev)
 ```
+
+Make sure to update the image paths if they are incorrect, and ensure that the images are present in the specified locations in your repository.
